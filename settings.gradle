@@ -1,1 +1,3 @@
-include ':app'
+include ':app', ':mediasoup-client-android'
+
+project(':mediasoup-client-android').projectDir = new File('../mediasoup-client-android/mediasoup-client')
