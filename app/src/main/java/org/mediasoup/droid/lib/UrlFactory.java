@@ -5,7 +5,7 @@ import java.util.Locale;
 public class UrlFactory {
 
 //  private static final String HOSTNAME = "v3demo.mediasoup.org";
-    private static final String HOSTNAME = "192.168.1.90";
+    private static final String HOSTNAME = "192.168.1.107";
   private static final int PORT = 4443;
 
   public static String getInvitationLink(String roomId, boolean forceH264, boolean forceVP9) {

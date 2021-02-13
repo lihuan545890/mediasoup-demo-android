@@ -81,9 +81,12 @@ public class RoomActivity extends AppCompatActivity {
     SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
 
     // Room initial config.
-    mRoomId = preferences.getString("roomId", "");
-    mPeerId = preferences.getString("peerId", "");
-    mDisplayName = preferences.getString("displayName", "");
+//    mRoomId = preferences.getString("roomId", "");
+//    mPeerId = preferences.getString("peerId", "");
+//    mDisplayName = preferences.getString("displayName", "");
+    mRoomId = "123456";
+    mPeerId = "123456";
+    mDisplayName = "lihuan";
     mForceH264 = preferences.getBoolean("forceH264", false);
     mForceVP9 = preferences.getBoolean("forceVP9", false);
     if (TextUtils.isEmpty(mRoomId)) {
